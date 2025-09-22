@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ping The IPs</title>
+		<link rel="stylesheet" href="page.css">
+	</head>
+	<body>
+		<div class="container">	
+			<h2>
+				Enter an IP address to PING
+			</h2>
+			<form action="ping.php" method="GET">
+				<label>
+					IP Address : 
+				</label>
+				<input type="text" name="ip"  required>
+				<input type="submit" value="Ping">
+			</form>
+		</div>
+	</body>
+</html>
+
 
