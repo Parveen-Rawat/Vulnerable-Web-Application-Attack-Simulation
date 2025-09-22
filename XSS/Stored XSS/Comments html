@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>LEAVE A COMMENT</title>
+	<link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+	    <div class="container">    
+       		 <h2>Leave A Comment</h2>
+        	<form action="comments.php" method="POST">
+           		 <label>Name: </label><br>
+            	       	<input type="text" name="name"  required><br><br>
+            
+	      		<label>Comment: </label>
+            		<textarea name="message" rows="5" cols="30" required></textarea><br><br>
+
+            		<input type="submit" value="Post Comment">
+        	</form>
+	    </div>
+    </body>
+</html>
 
