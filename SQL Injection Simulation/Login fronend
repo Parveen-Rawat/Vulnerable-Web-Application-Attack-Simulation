@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+                <title>VUlnLAB</title>
+            <style>
+                body {
+                    background:url('backgroundimage.jpg') no-repeat center center fixed;
+                    background-color:#0f0f0f;
+                    color:#eaeaea;
+                    font-family: 'Segoe UI' , Tahoma, GEneva, Verdana, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin:0;
+                }
+
+                .login-box {
+                    background-color: #1c1c1c;
+                    padding: 40px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 15px rgba(255,0,100,0.4);
+                    width: 300px;
+                }
+
+                h2{
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: #1aff00;
+                }
+
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                    color: yellow;
+                }
+
+                input[type="text"],
+                input[type="password"] {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    background-color: #2a2a2a;
+                    border: 1px solid #555;
+                    border-radius: 10px;
+                    color: #fff;
+                }
+
+                input[type="submit"]:hover {
+                    background-color: #00e1ff;
+                }
+
+            </style>
+        </head>
+        <body>
+                <h2>LOGIN</h2>
+                <form action ='login.php' method='POST'>
+                        <label>
+                                USERNAME:
+                        </label>
+                        <input type='text' name='username' required><br>
+                        <label>
+                                PASSWORD:
+                        </label>
+                        <input type='password' name='password' required><br>
+                        <input type ='submit' value='Login'>
+                </form>
+        </body>
+</html>
+
+
+	
 
