@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VulnLab - Cybersecurity Demo Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>VulnLab</h1>
+    <p>This project demonstrates real-world web application vulnerabilities.</p>
+    <ul>
+      <li><a href="login.html">🔓 SQL Injection</a></li>
+      <li><a href="xssloginsession.html">🔐 Session Login (XSS Hijack Target)</a></li>
+      <li><a href="comments.html">📝 Comment System (Stored XSS)</a></li>
+      <li><a href="ping.html">💣 Command Injection</a></li>
+    </ul>
+  </div>
+</body>
+</html>
+
 
